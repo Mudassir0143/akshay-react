@@ -19,7 +19,7 @@ const Body = () => {
     );
 
     const json = await data.json();
-    // console.log(json);
+     console.log(json);
     //  setlistOfRestaurants(json.data.cards);
   };
   return listOfRestaurants === 0 ? (
